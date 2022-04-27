@@ -66,4 +66,5 @@
 ## 결과
 <img width="264" alt="스크린샷 2022-04-27 오후 5 15 18" src="https://user-images.githubusercontent.com/39906922/165473233-dd894291-60c8-4e30-abf6-d6bdfb962246.png">
 <img width="631" alt="스크린샷 2022-04-27 오후 5 23 29" src="https://user-images.githubusercontent.com/39906922/165474909-82f71512-63d1-4a3c-937e-731dc0fecf6b.png">
+
 **위 예제의 최대 유량은 13이다.**
