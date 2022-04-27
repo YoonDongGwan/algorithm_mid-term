@@ -45,7 +45,25 @@
 <img width="629" alt="스크린샷 2022-04-27 오후 5 10 30" src="https://user-images.githubusercontent.com/39906922/165472349-6d651116-94e0-4261-9a1e-2cc4922a22a8.png">
 <img width="345" alt="스크린샷 2022-04-27 오후 5 13 08" src="https://user-images.githubusercontent.com/39906922/165472935-4d9681e8-22e4-43c2-8e2a-657750bc97b3.png">
 <img width="543" alt="스크린샷 2022-04-27 오후 5 13 21" src="https://user-images.githubusercontent.com/39906922/165472972-ce71c033-e8f3-4591-8f7d-fb3c6b5839e2.png">
-  
+
+## 수행 과정
+### 경로 S -> A -> D -> T
+<img width="631" alt="1" src="https://user-images.githubusercontent.com/39906922/165476327-9556c361-f691-4a4f-a210-6326ed343a75.png">
+
+### 경로 S -> B -> D -> T
+<img width="631" alt="2" src="https://user-images.githubusercontent.com/39906922/165476672-c8c2578d-3baa-4ae6-92da-9f332aef8dfb.png">
+
+### 경로 S -> B -> E -> T
+<img width="631" alt="3" src="https://user-images.githubusercontent.com/39906922/165476784-caba0bd2-bc2f-492a-8342-2800172e3c20.png">
+
+### 경로 S -> B -> F -> T
+<img width="631" alt="4" src="https://user-images.githubusercontent.com/39906922/165476871-55a72899-26d9-458b-b5f9-a8db760d51a8.png">
+
+### 경로 S -> C -> F -> T
+<img width="631" alt="5" src="https://user-images.githubusercontent.com/39906922/165476947-db83c3e2-fca9-4b27-9348-39cbc5052ace.png">
+
+
 ## 결과
 <img width="264" alt="스크린샷 2022-04-27 오후 5 15 18" src="https://user-images.githubusercontent.com/39906922/165473233-dd894291-60c8-4e30-abf6-d6bdfb962246.png">
 <img width="631" alt="스크린샷 2022-04-27 오후 5 23 29" src="https://user-images.githubusercontent.com/39906922/165474909-82f71512-63d1-4a3c-937e-731dc0fecf6b.png">
+**위 예제의 최대 유량은 13이다.**
