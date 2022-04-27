@@ -40,4 +40,12 @@
 그러면 S -> B -> A -> T 라는 경로가 하나 새로 생기고, B -> A 라는 경로는 사실 존재하지 않지만, A -> B 로 흐르는 유량을 감소시킬 수 있게 되고, 그로 인해 감소된 만큼 다른 곳으로 유량이 흐를 수 있게 된다. 예를 들면, 원래는 S -> A 의 용량이 꽉 차 A -> T 로 유량을 흘러보낼 수 없었지만, A -> B 로 흐르는 유량이 감소되어 A -> T로 흐를 수 있게 된다.  
 즉, 유량이 반대로도 흐름을 고려하여 풀이 1, 2, 3 을 거치면, 포드-풀커슨 알고리즘의 목표인 종점에서의 최대 유량을 알 수 있게 된다.
 
-# 예시
+# 실행 결과
+## 조건
+<img width="629" alt="스크린샷 2022-04-27 오후 5 10 30" src="https://user-images.githubusercontent.com/39906922/165472349-6d651116-94e0-4261-9a1e-2cc4922a22a8.png">
+<img width="345" alt="스크린샷 2022-04-27 오후 5 13 08" src="https://user-images.githubusercontent.com/39906922/165472935-4d9681e8-22e4-43c2-8e2a-657750bc97b3.png">
+<img width="543" alt="스크린샷 2022-04-27 오후 5 13 21" src="https://user-images.githubusercontent.com/39906922/165472972-ce71c033-e8f3-4591-8f7d-fb3c6b5839e2.png">
+  
+## 결과
+<img width="264" alt="스크린샷 2022-04-27 오후 5 15 18" src="https://user-images.githubusercontent.com/39906922/165473233-dd894291-60c8-4e30-abf6-d6bdfb962246.png">
+<img width="631" alt="스크린샷 2022-04-27 오후 5 23 29" src="https://user-images.githubusercontent.com/39906922/165474909-82f71512-63d1-4a3c-937e-731dc0fecf6b.png">
