@@ -1,33 +1,34 @@
 import java.util.ArrayList;
 
 public class ford_fulkerson {
-    public int capacity[][] = {
-            {0, 3, 4, 5, 0, 0, 0, 0},
-            {0, 0, 0, 0, 1, 3, 0, 0},
-            {0, 0, 0, 0, 0, 2, 0, 0},
-            {0, 0, 0, 0, 0, 0, 7, 0},
-            {0, 0, 0, 0, 0, 0, 0, 3},
+    int n = 8;
+    public int capacity[][] = {     // capacity[a][b] : a b 사이 간선의 용량
+            {0, 6, 7, 5, 0, 0, 0, 0},
+            {0, 0, 0, 0, 3, 0, 0, 0},
+            {0, 0, 0, 0, 2, 4, 3, 0},
+            {0, 0, 0, 0, 0, 0, 3, 0},
+            {0, 0, 0, 0, 0, 0, 0, 6},
             {0, 0, 0, 0, 0, 0, 0, 5},
-            {0, 0, 0, 0, 0, 1, 0, 4},
+            {0, 0, 0, 0, 0, 0, 0, 5},
             {0, 0, 0, 0, 0, 0, 0, 0}
     };
     public String node_name[] = {
             "S", "A", "B", "C", "D", "E", "F", "T"
     };
-    public int flow[][] = new int[8][8];
+    public int flow[][] = new int[n][n]; // flow[a][b] : a b 사이 간선에 흐르는 유량
     public ArrayList<Integer> path = new ArrayList<>();
-    public boolean visited[] = new boolean[8];
+    public boolean visited[] = new boolean[n];
     public int graph[][] = {
             {1, 2, 3},
-            {4, 5},
-            {5},
+            {4},
+            {4, 5, 6},
             {6},
             {7},
             {7},
-            {5, 7},
+            {7},
             {}
     };
-    public int connected[][] = new int[8][8];
+    public int connected[][] = new int[n][n];
     public int total_flow = 0;
     public static void main(String[] args) {
         ford_fulkerson f = new ford_fulkerson();
@@ -40,7 +41,7 @@ public class ford_fulkerson {
             System.out.println();
         }
         for (int i = 0; i < f.flow.length; i++){
-            f.total_flow += f.flow[i][7];
+            f.total_flow += f.flow[i][f.n-1];
         }
         System.out.println(f.total_flow);
     }
