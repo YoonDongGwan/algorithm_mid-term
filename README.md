@@ -59,17 +59,27 @@
 ### 경로 S -> A -> D -> T
 <img width="631" alt="1" src="https://user-images.githubusercontent.com/39906922/165476327-9556c361-f691-4a4f-a210-6326ed343a75.png">
 
+경로 S -> A -> D -> T의 최소 잔여 용량은 3이므로 경로 전체에 3을 흘려보낸다.
+
 ### 경로 S -> B -> D -> T
 <img width="631" alt="2" src="https://user-images.githubusercontent.com/39906922/165476672-c8c2578d-3baa-4ae6-92da-9f332aef8dfb.png">
+
+경로 S -> B -> D -> T의 최소 잔여 용량은 2이므로 경로 전체에 2를 흘려보낸다.
 
 ### 경로 S -> B -> E -> T
 <img width="631" alt="3" src="https://user-images.githubusercontent.com/39906922/165476784-caba0bd2-bc2f-492a-8342-2800172e3c20.png">
 
+경로 S -> B -> E -> T의 최소 잔여 용량은 4이므로 경로 전체에 4를 흘려보낸다.
+
 ### 경로 S -> B -> F -> T
 <img width="631" alt="4" src="https://user-images.githubusercontent.com/39906922/165476871-55a72899-26d9-458b-b5f9-a8db760d51a8.png">
 
+경로 S -> B -> F -> T의 최소 잔여 용량은 1이므로 경로 전체에 1을 흘려보낸다.
+
 ### 경로 S -> C -> F -> T
 <img width="631" alt="5" src="https://user-images.githubusercontent.com/39906922/165476947-db83c3e2-fca9-4b27-9348-39cbc5052ace.png">
+
+경로 S -> C -> F -> T의 최소 잔여 용량은 3이므로 경로 전체에 3을 흘려보낸다.
 
 
 ## 결과
